@@ -1,0 +1,91 @@
+﻿<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="textBox1.Text" xml:space="preserve">
+    <value>1. Add Customer: This button allows the administrator to add a new customer to the salon's database.
+
+2. Edit Customer: This button allows the administrator to edit the details of an existing customer in the salon's database.
+
+3. Delete Customer: This button allows the administrator to delete a customer from the salon's database.
+
+4. View Customer: This button allows the administrator to view the details of a specific customer in the salon's database.
+
+5. Add Appointment: This button allows the administrator to schedule a new appointment for a customer.
+
+6. Edit Appointment: This button allows the administrator to edit the details of an existing appointment.
+
+7. Cancel Appointment: This button allows the administrator to cancel an appointment for a customer.
+
+8. View Appointment: This button allows the administrator to view the details of a specific appointment.
+
+9. Add Stylist: This button allows the administrator to add a new stylist to the salon's database.
+
+10. Edit Stylist: This button allows the administrator to edit the details of an existing stylist in the salon's database.
+
+11. Delete Stylist: This button allows the administrator to delete a stylist from the salon's database.
+
+12. View Stylist: This button allows the administrator to view the details of a specific stylist in the salon's database.
+
+13. Generate Report: This button allows the administrator to generate reports related to customer appointments, stylist performance, and salon revenue.
+
+14. Settings: This button allows the administrator to access and modify settings related to the app, such as notification preferences, database backup, and user access control.
+
+15. Help: This button allows the administrator to access help documentation, tutorials, and FAQs to assist them in using the app effectively. </value>
+  </data>
+</root>
